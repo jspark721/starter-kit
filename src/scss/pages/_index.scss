@@ -1,1 +1,12 @@
 // index page
+
+body {
+  background: pink;
+  color: white;
+}
+
+@media screen and ($mq-md){
+  body {
+    background: lightblue;
+  }
+}
